@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#081C15"/>
+      <stop offset="55%" stop-color="#0B2E1F"/>
+      <stop offset="100%" stop-color="#14532D"/>
+    </linearGradient>
+    <linearGradient id="dino" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#95D5B2"/>
+      <stop offset="100%" stop-color="#52B788"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="340" fill="url(#sky)"/>
+
+  <!-- stars -->
+  <g fill="#D8F3DC" opacity="0.8">
+    <circle cx="90" cy="45" r="2"/><circle cx="220" cy="28" r="1.6"/><circle cx="410" cy="52" r="2"/>
+    <circle cx="620" cy="30" r="1.5"/><circle cx="760" cy="60" r="2"/><circle cx="930" cy="35" r="1.6"/>
+    <circle cx="1080" cy="70" r="2"/><circle cx="520" cy="80" r="1.4"/><circle cx="150" cy="95" r="1.4"/>
+  </g>
+
+  <!-- moon -->
+  <circle cx="1065" cy="78" r="38" fill="#FEF3C7"/>
+  <circle cx="1052" cy="68" r="34" fill="#081C15" opacity="0.18"/>
+
+  <!-- rolling hills -->
+  <path d="M0 268 Q 200 218 430 252 T 860 244 T 1200 258 V340 H0 Z" fill="#1B4332"/>
+  <path d="M0 296 Q 260 258 540 288 T 1200 292 V340 H0 Z" fill="#081C15" opacity="0.55"/>
+
+  <!-- long-neck dino -->
+  <g>
+    <!-- tail -->
+    <path d="M118 244 Q 52 236 34 196 Q 66 224 122 222 Z" fill="url(#dino)"/>
+    <!-- back leg -->
+    <rect x="150" y="238" width="26" height="58" rx="12" fill="#40916C"/>
+    <!-- body -->
+    <ellipse cx="212" cy="226" rx="88" ry="52" fill="url(#dino)"/>
+    <!-- front leg -->
+    <rect x="238" y="240" width="28" height="60" rx="13" fill="#52B788"/>
+    <!-- neck -->
+    <path d="M278 202 Q 306 128 344 96 L 366 116 Q 330 152 312 216 Z" fill="url(#dino)"/>
+    <!-- head -->
+    <ellipse cx="366" cy="106" rx="34" ry="24" fill="url(#dino)"/>
+    <circle cx="376" cy="100" r="4.5" fill="#081C15"/>
+    <circle cx="388" cy="112" r="2.4" fill="#081C15"/>
+    <!-- belly + spots -->
+    <ellipse cx="204" cy="242" rx="58" ry="30" fill="#B7E4C7" opacity="0.65"/>
+    <circle cx="178" cy="204" r="10" fill="#40916C" opacity="0.75"/>
+    <circle cx="216" cy="190" r="7" fill="#40916C" opacity="0.75"/>
+    <circle cx="246" cy="208" r="8" fill="#40916C" opacity="0.75"/>
+    <!-- back spikes -->
+    <path d="M150 188 l14 -18 l12 20 Z" fill="#2D6A4F"/>
+    <path d="M196 176 l14 -18 l12 20 Z" fill="#2D6A4F"/>
+    <path d="M242 182 l14 -18 l12 20 Z" fill="#2D6A4F"/>
+  </g>
+
+  <!-- little t-rex friend -->
+  <g opacity="0.95">
+    <ellipse cx="468" cy="256" rx="38" ry="26" fill="#74C69D"/>
+    <circle cx="498" cy="232" r="18" fill="#74C69D"/>
+    <rect x="436" y="272" width="14" height="28" rx="7" fill="#40916C"/>
+    <rect x="468" y="274" width="14" height="28" rx="7" fill="#74C69D"/>
+    <path d="M432 252 Q 402 248 394 230 Q 414 238 434 238 Z" fill="#74C69D"/>
+    <circle cx="503" cy="228" r="3" fill="#081C15"/>
+  </g>
+
+  <!-- ferns -->
+  <g stroke="#2D6A4F" stroke-width="5" stroke-linecap="round" fill="none">
+    <path d="M52 322 Q 58 282 40 254"/><path d="M52 322 Q 74 288 102 274"/><path d="M52 322 Q 50 284 66 250"/>
+    <path d="M1136 324 Q 1142 286 1124 258"/><path d="M1136 324 Q 1158 292 1184 280"/>
+  </g>
+
+  <!-- footprints -->
+  <g fill="#D8F3DC" opacity="0.5">
+    <ellipse cx="560" cy="312" rx="10" ry="6" transform="rotate(-18 560 312)"/>
+    <ellipse cx="596" cy="300" rx="10" ry="6" transform="rotate(-18 596 300)"/>
+    <ellipse cx="632" cy="312" rx="10" ry="6" transform="rotate(-18 632 312)"/>
+    <ellipse cx="668" cy="300" rx="10" ry="6" transform="rotate(-18 668 300)"/>
+  </g>
+
+  <!-- headline -->
+  <text x="730" y="146" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="58" font-weight="800" letter-spacing="3" fill="#FFFFFF">ROAR · CODE · EVOLVE</text>
+  <text x="730" y="196" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="600" fill="#B7E4C7">AI and Software Developer</text>
+  <text x="730" y="236" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="19" fill="#D8F3DC">AI Tools  •  IoT  •  Smart Home Systems  •  DevOps</text>
+</svg>
