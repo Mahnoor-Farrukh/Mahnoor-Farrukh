@@ -1,17 +1,12 @@
-<!-- GitHub Profile README -->
-<!-- Repo must be named after the username so GitHub displays it on the profile page. No personal details are included. -->
+<!-- GitHub Profile README — dino theme. All images are self-hosted in this repo so nothing breaks. No personal details are included. -->
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Welcome%20to%20My%20GitHub&fontSize=42&fontAlignY=35&animation=fadeIn&fontColor=ffffff&desc=AI%20%26%20Software%20Developer&descAlignY=55&descSize=16" alt="Welcome" width="100%"/>
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=800&color=7C3AED&center=true&vCenter=true&width=700&lines=Building+AI-powered+tools+for+real+problems;IoT+%7C+Smart+Home+Systems+%7C+Code+Intelligence;Exploring+DevOps%2C+one+project+at+a+time;Turning+ideas+into+working+software)](https://github.com/Mahnoor-Farrukh)
+<img src="./assets/banner.svg" alt="Roar, Code, Evolve — AI and Software Developer" width="100%"/>
 
 </div>
 
----
-
-## 👩‍💻 About Me
+## 🦕 About Me
 
 ```text
 🤖  Interested in AI, IoT & Smart Home Systems, and Developer Tools
@@ -20,11 +15,11 @@
 💬  Ask me about Python, Kotlin, C++, and AI APIs
 ```
 
-I love turning ideas into real, working software — from systems and algorithms projects, to AI tools that summarize requirements and review code.
+I love turning ideas into real, working software — from systems and algorithms projects, to AI tools that summarize requirements and review code. Think of this page as a little Jurassic park of projects: everything here was built, tested, and evolved over time. 🦖
 
 ---
 
-## 🚀 Featured Projects
+## 🦖 Featured Projects
 
 <div align="center">
 
@@ -38,7 +33,7 @@ I love turning ideas into real, working software — from systems and algorithms
 
 </div>
 
-### 📚 More Projects & Experiments
+### 🌿 More Projects & Experiments
 
 - **[DSA-Lab](https://github.com/Mahnoor-Farrukh/DSA-Lab)** — Data Structures & Algorithms `C++`
 - **[OS-Lab](https://github.com/Mahnoor-Farrukh/OS-Lab)** — Operating Systems
@@ -62,7 +57,12 @@ I love turning ideas into real, working software — from systems and algorithms
 
 </div>
 
+---
+
+## 🗺️ The Map of My Work
+
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#14532D', 'primaryTextColor': '#FFFFFF', 'primaryBorderColor': '#74C69D', 'lineColor': '#40916C', 'secondaryColor': '#1B4332', 'tertiaryColor': '#081C15'}}}%%
 mindmap
   root((My Work))
     AI Tools
@@ -82,16 +82,31 @@ mindmap
       Source Code Management
 ```
 
+## 🥚 How a Project Evolves Here
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#14532D', 'primaryTextColor': '#FFFFFF', 'primaryBorderColor': '#74C69D', 'lineColor': '#40916C', 'secondaryColor': '#1B4332', 'tertiaryColor': '#081C15'}}}%%
+flowchart LR
+    A["🥚 Idea"] --> B["📐 Design"]
+    B --> C["💻 Build"]
+    C --> D["🧪 Test"]
+    D --> E["🚀 Ship"]
+    E --> F["🦕 Evolve"]
+    F --> C
+```
+
 ---
 
-## 📊 GitHub Stats
+## 📊 By the Numbers
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Mahnoor-Farrukh&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mahnoor-Farrukh&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/>
-
-<img src="https://streak-stats.demolab.com?user=Mahnoor-Farrukh&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
+| 🦕 | Count |
+|---|---|
+| Public repositories | 15+ |
+| AI projects | IoTSpec-AI · HomeSync-AI · CodeInsight-AI · MediSafetyAgent |
+| Core languages | Python · Kotlin · C++ |
+| Currently exploring | DevOps · Docker · Jenkins |
 
 </div>
 
@@ -111,8 +126,6 @@ mindmap
 
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mahnoor-Farrukh)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
-
-*“Showcasing my work, one commit at a time.”*
+<img src="./assets/footer.svg" alt="" width="100%"/>
 
 </div>
